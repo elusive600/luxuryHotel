@@ -275,6 +275,8 @@
 
     .bottom-header__title-top {
         font-size: 29px;
+        line-height: 23px;
+        margin-bottom: 9px;
     }
     
     .bottom-header__title {
