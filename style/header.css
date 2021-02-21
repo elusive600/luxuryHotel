@@ -255,6 +255,10 @@
         margin-bottom: 55px;
     }
     
+    .top-header__menu {
+        margin-top: 7px;
+    }
+
     .top-header__menu-link {
         text-decoration: none;
         color: #FFFFFF;
@@ -274,10 +278,9 @@
     }
     
     .bottom-header__title {
-        font-size: 87px;
+        font-size: 98px;
         margin: 0;
-        line-height: 71px;
-        margin-bottom: 5px;
+        line-height: 74px;
     }
     
     .bottom-header__title-bottom {
@@ -304,11 +307,11 @@
     }
 
     .scroll-element__button {
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .scroll-element__img {
-        margin: 7px 0 19px;
+        margin: 3px 0 17px;
         width: 30px;
         height: auto;
     }
@@ -345,7 +348,7 @@
 
     .bottom-header__title-bottom {
         font-size: 34px;
-        line-height: 4px;
+        line-height: 29px;
         letter-spacing: 16.2px;
         margin-bottom: 23px;
     }
