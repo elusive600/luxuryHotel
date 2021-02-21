@@ -460,7 +460,7 @@
     
     .offers {
         margin: 0 auto;
-        padding: 23px 5px 41px;
+        padding: 23px 5px 33px;
     }
 
     .offers__container .offer+.offer {
@@ -512,15 +512,14 @@
         font-size: 28px;
     }
 
-    testimonials__text {
-        font-size: 13px;
+    .testimonials__text {
+        font-size: 14px;
         margin-bottom: 4px;
     }
     
-    testimonials__name {
+    .testimonials__name {
         font-size: 11px;
         line-height: 23px;
     }
 }
     
-}
