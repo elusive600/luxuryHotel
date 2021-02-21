@@ -369,7 +369,7 @@
     }
 
     .offers__including {
-        font-size: 15px;
+        font-size: 17px;
         margin-bottom: 25px;
     }
 
@@ -394,7 +394,7 @@
     }
 
     .offer__description {
-        font-size: 11px;
+        font-size: 13px;
         max-width: 307px;
         line-height: 15px;
         padding-bottom: 17px
@@ -402,7 +402,7 @@
 
     .offer__button {
         font-size: 9.5px;
-        padding: 2px 21px;
+        padding: 4px 25px;
         border-radius: 9px;
     }
 
@@ -411,18 +411,18 @@
     }    
 
     .testimonials__title {
-        font-size: 26px;
+        font-size: 30px;
         letter-spacing: -0.7px;
     }
 
     .testimonials__text {
-        font-size: 11px;
+        font-size: 16px;
         line-height: 15px;
         margin-bottom: 4px;
     }
 
     .testimonials__name {
-        font-size: 10px;
+        font-size: 13px;
         line-height: 23px;
     }
 
@@ -441,7 +441,7 @@
     }
 
     .testimonials__button-svg {
-        width:10px;
+        width: 13px;
         height: auto;
     }
 
