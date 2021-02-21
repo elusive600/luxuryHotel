@@ -240,25 +240,77 @@
 }
 
 @media (max-width: 800px) {
+
+    .top-header__title {
+        font-size: 30px;
+    }
+
+    .top-header__sub-title {
+        font-size: 12px;
+        letter-spacing: 7px;
+    }
+
+    .top-header {
+        flex-direction: column;
+        margin-bottom: 55px;
+    }
+    
+    .top-header__menu-link {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        transition: 0.4s;
+        border-bottom: 2px solid transparent;
+    }
     
     .top-header__menu-list li + li {
         padding-left: 30px;
     }
 
     .bottom-header__title-top {
-        font-size: calc(50px - 50%);
+        font-size: 29px;
     }
     
     .bottom-header__title {
-        font-size: 118px;
+        font-size: 87px;
         margin: 0;
+        line-height: 71px;
+        margin-bottom: 5px;
     }
     
     .bottom-header__title-bottom {
         display: block;
-        font-size: 38px;
+        font-size: 29px;
         line-height: 25px;
-        margin-bottom: 23px;
+        margin-bottom: 14px;
+    }
+
+    .bottom-header__text-info {
+        margin-bottom: 47px;
+    }
+
+    .bottom-header__title-text {
+        font-size: 17px;
+        letter-spacing: 0.1em;
+        max-width: 470px;
+    }
+
+    .bottom-header__button {
+        font-size: 17px;
+        margin-bottom: 25px;
+        padding: 13px 27px;
+    }
+
+    .scroll-element__button {
+        font-size: 25px;
+    }
+
+    .scroll-element__img {
+        margin: 7px 0 19px;
+        width: 30px;
+        height: auto;
     }
 }
 
