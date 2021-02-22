@@ -245,7 +245,7 @@
     }
 
     .facilites__item-img {
-        width: 98%;
+        width: 100%;
         height: auto;
     }
 
@@ -289,7 +289,39 @@
 
 
 @media (max-width: 800px) {
+    
+    .discribe {
+        padding: 32px 0px 0;
+    }
 
+    .describe__title {
+        font-size: 27px;
+        padding-bottom: 9px;
+    }
+
+    .describe__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .facilites {
+        padding: 0 9px 0;
+    }
+
+    .facilites__item-title {
+        position: relative;
+        padding: 0;
+        font-size: 22px;
+        left: 0;
+    }
+
+    .facilites__items .facilites__item + .facilites__item {
+        margin-top: 20px;
+    }
+
+    .facilites__items {
+        padding: 34px 0 49px;
+    }
 
     .testimonials {
         margin-bottom: 70px;
@@ -348,5 +380,11 @@
         font-size: 11px;
         line-height: 23px;
     }
+
+
+}
+
+@media (max-width: 428px) {
+
 }
 
