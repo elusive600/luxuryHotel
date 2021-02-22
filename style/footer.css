@@ -157,7 +157,85 @@
 
 
 @media (max-width: 1080px) {
+    .footer__container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 36px 27px 40px 27px;
+    }
+
+    .footer__logo-block {
+        max-width: 330px;
+        width: 100%;
+        align-self: center;
+    }
+
+    .footer__logo-link {
+        max-width: 100%;
+    }
+
+    .footer__logo-title {
+        text-align: center;
+    }
+
+    .footer__contacts-menu {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__contacts-menu li+li {
+        padding-left: 22px;
+        padding-top: 0;
+    }
+
+    .footer__logo-text {
+        display: none;
+    }
+
+    .footer__contacts-text {
+        display: none;
+    }
+
+    .footer__sotial-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0 15px;
+    }
+
+    .footer__sotial-menu li+li {
+        padding-left: 22px;
+        padding-top: 0;
+    }
+
+    .footer__sotial-item svg {
+        margin-right: 0;
+        width: 26px;
+        height: 26px;
+    }
     
+
+    .footer__form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__foorm-label {
+        text-align: center;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+
+    
+    .footer__form-input {
+        padding: 16px 26px;
+        font-weight: 400;
+        font-size: 16px;
+        border: 3px solid #E0B973;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
 
 }
 
@@ -166,6 +244,40 @@
 }
 
 @media (max-width: 576px) {
+
+    .footer::before {
+        top: -24px;
+        z-index: -1;
+    }
+
+    .footer__container {
+        padding: 16px 27px 16px 27px;
+    }
+
+    .footer__contacts-item {
+        font-size: 14px;
+    }
+
+    .footer__foorm-label {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+
+    .footer__form-input {
+        padding: 3px 12px;
+        font-weight: 400;
+        font-size: 14px;
+        border: 3px solid #E0B973;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    
+
+    .footer__form-button {
+        font-size: 13px;
+        color: #14274A;
+        padding: 11px 14px;
+    }
     
 }
 
@@ -173,6 +285,14 @@
 
 }
 
-@media (max-width: 360px) and (min-width: 320px) {
+@media (max-width: 380px) and (min-width: 320px) {
     
+    .footer__contacts-item {
+        font-size: 12px;
+    }
+
+    .footer__contacts-menu li+li {
+        padding-left: 17px;
+        padding-top: 0;
+    }
 }
