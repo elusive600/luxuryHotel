@@ -305,13 +305,16 @@
     }
 
     .facilites {
-        padding: 0 9px 0;
+        padding: 0 8px 0;
     }
 
     .facilites__item-title {
-        position: relative;
+        position: static;
         padding: 0;
         font-size: 22px;
+        width: 250px;
+        min-width: 250px;
+        width: 100%;
         left: 0;
     }
 
