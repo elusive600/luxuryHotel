@@ -123,8 +123,9 @@
     font-weight: 700;
     font-size: 16px;
     border: 3px solid #E0B973;
-    /* border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px; */
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
 .footer__form-input:focus,
@@ -237,8 +238,6 @@
         font-weight: 400;
         font-size: 16px;
         border: 3px solid #E0B973;
-        /* border-bottom-left-radius: 10px;
-        border-top-left-radius: 10px; */
     }
 
 }
@@ -272,8 +271,6 @@
         font-weight: 400;
         font-size: 14px;
         border: 3px solid #E0B973;
-        /* border-bottom-left-radius: 10px;
-        border-top-left-radius: 10px; */
     }
     
 
