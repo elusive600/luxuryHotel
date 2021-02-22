@@ -1,0 +1,352 @@
+.header {
+    background: url(../img/background-header-facilites.png) no-repeat 50%;
+    background-size: cover;
+}
+
+
+.facilites__container {
+    max-width: 1580px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.discribe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 24px 0;
+}
+
+.describe__title {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #14274A;
+    padding-bottom: 28px;
+}
+
+.describe__text {
+    width: 100%;
+    font-style: normal; 
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    color: #14274A;
+}
+
+.facilites__items {
+    padding: 80px 0 110px ; 
+}
+
+.facilites__items .facilites__item + .facilites__item {
+    margin-top: 100px;
+}
+
+.facilites__item {
+    position: relative;
+}
+
+.facilites__img-container {
+}
+
+.facilites__item-img {
+    max-width: 1590px;
+    width:100%;
+    height: auto;
+}
+
+.facilites__item-title {
+    position: absolute;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #14274A;
+    left: calc(50% - 342px);
+    bottom: 0;
+    background-color: #fff;
+    padding: 16px 0;
+    min-width: 674px;
+}
+
+.testimonials {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.testimonials__title {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: -0.7px;
+    color: #14274A;
+}
+
+.testimonials__item {
+    margin: 23px 0;
+}
+
+.testimonials__text {
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+    line-height: 37px;
+    /* max-width: 850px; */
+    width: 100%;
+    color: #14274A;
+    margin-bottom: 26px;
+}
+
+.testimonials__name {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    color: #14274A;
+}
+
+.testimontial__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials__button-left {
+    margin-right: 20px;
+}
+
+.testimonials__button-left,
+.testimonials__button-right{
+    display: block;
+    padding: 12px 15px;
+    background: #E0B973;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.testimonials__button-left:active,
+.testimonials__button-right:active, 
+.testimonials__button-left:focus,
+.testimonials__button-right:focus {
+    outline: none;
+}
+
+.testimonials__button-left:hover,
+.testimonials__button-right:hover {
+    background-color: rgb(224 185 115 / 70%);
+}
+
+/* MOBILE */
+
+@media (max-width: 1619px) {
+    .facilites {
+        padding: 0 13px 0;
+    }
+}
+
+
+@media (max-width: 1336px) {
+
+    
+    .testimonials__title {
+        font-size: 48px;
+        letter-spacing: -0.7px;
+    }
+
+    .testimonials__text {
+        font-size: 29px;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+
+    .discribe {
+        padding: 48px 24px 0;
+    }
+
+    .describe__title {
+        font-size: 50px;
+        padding-bottom: 19px;
+    }
+
+    .describe__text {
+        font-size: 21px;
+        line-height: 29px;
+    }
+
+    .facilites__items {
+        padding: 57px 0 90px;
+    }
+
+    .facilites__items .facilites__item + .facilites__item {
+        margin-top: 74px;
+    }
+
+    .facilites__item-title {
+        position: absolute;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        left: calc(50% - 275px);
+        padding: 8px 0;
+        min-width: 550px;
+    }
+
+    .testimonials__text {
+        font-size: 23px;
+        margin-bottom: 10px;
+        line-height: 21px;
+    }
+
+    .testimonials__name {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .testimonials__item {
+        margin: 13px 0;
+    }
+
+}
+
+@media (max-width: 1046px) {
+
+    .describe__title {
+        font-size: 45px;
+        padding-bottom: 13px;
+    }
+
+    .describe__text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .facilites__items {
+        padding: 42px 0 80px;
+    }
+
+    .facilites__img-container {
+        text-align: center;
+    }
+
+    .facilites__item-img {
+        width: 98%;
+        height: auto;
+    }
+
+    .facilites__items .facilites__item + .facilites__item {
+        margin-top: 46px;
+    }
+
+    .facilites__item-title {
+        left: calc(50% - 200px);
+        padding: 8px 0;
+        min-width: 400px;
+        font-size: 30px;
+    }
+
+    .testimonials__title {
+        font-size: 35px;
+        letter-spacing: -0.7px;
+    }
+
+    .testimonials__text {
+        font-size: 19px;
+        margin-bottom: 4px;
+        line-height: 21px;
+    }
+
+    .testimonials__name {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .testimonials__item {
+        margin: 7px 0;
+    }
+
+    .testimonials__button-left, .testimonials__button-right {
+        display: block;
+        padding: 8px 13px;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+
+    .testimonials {
+        margin-bottom: 70px;
+    }    
+
+    .testimonials__title {
+        font-size: 30px;
+        letter-spacing: -0.7px;
+    }
+
+    .testimonials__text {
+        font-size: 16px;
+        line-height: 15px;
+        margin-bottom: 4px;
+    }
+
+    .testimonials__name {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .testimonials__item {
+        margin: 7px 0;
+    }
+
+    .testimonials__button-left, .testimonials__button-right {
+        display: block;
+        padding: 6px 10px;
+        border-radius: 6px;
+    }
+
+    .testimonials__button-left {
+        margin-right: 14px;
+    }
+
+    .testimonials__button-svg {
+        width: 13px;
+        height: auto;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .testimonials__title {
+        font-size: 28px;
+    }
+
+    .testimonials__text {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+
+    .testimonials__name {
+        font-size: 11px;
+        line-height: 23px;
+    }
+}
+

@@ -256,6 +256,13 @@
 }
 
 @media (max-width: 800px) {
+    .footer__logo-link {
+        margin-bottom: 10px;
+    }
+
+    .footer__contacts-item {
+        font-size: 13px;
+    }
 
 }
 
@@ -268,10 +275,6 @@
 
     .footer__container {
         padding: 16px 27px 37px 27px;
-    }
-
-    .footer__contacts-item {
-        font-size: 14px;
     }
 
     .footer__foorm-label {
