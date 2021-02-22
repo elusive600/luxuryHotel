@@ -51,8 +51,6 @@
     position: relative;
 }
 
-.facilites__img-container {
-}
 
 .facilites__item-img {
     max-width: 1590px;
@@ -153,13 +151,15 @@
 
 @media (max-width: 1619px) {
     .facilites {
-        padding: 0 13px 0;
+        padding: 0 110px 0;
     }
 }
 
 
 @media (max-width: 1336px) {
-
+    .facilites {
+        padding: 0 86px 0;
+    }
     
     .testimonials__title {
         font-size: 48px;
@@ -175,6 +175,10 @@
 
 @media (max-width: 1200px) {
 
+    .facilites {
+        padding: 0 71px 0;
+    }
+    
     .discribe {
         padding: 48px 24px 0;
     }
