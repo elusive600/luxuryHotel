@@ -3,7 +3,6 @@
     background-size: cover;
 }
 
-
 .facilites__container {
     max-width: 1580px;
     width: 100%;
@@ -178,7 +177,7 @@
     .facilites {
         padding: 0 71px 0;
     }
-    
+
     .discribe {
         padding: 48px 24px 0;
     }
