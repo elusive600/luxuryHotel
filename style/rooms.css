@@ -482,7 +482,6 @@
 }
 
 
-
 @media (max-width: 570px) {
 
     .rooms__item-prise {
@@ -503,12 +502,12 @@
 @media (max-width: 457px) {
 
     .rooms__item-prise {
-        padding: 8px;
+        padding: 8px 12px;
         height: 60px;
     }
 
     .rooms__item-details-text {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .rooms__item-details-button svg {
