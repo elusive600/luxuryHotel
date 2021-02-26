@@ -210,7 +210,7 @@
 
 }
 
-@media (max-width: 457px) {
+@media (max-width: 857px) {
 
     .bottom-header__text {
         font-style: normal;
@@ -291,6 +291,8 @@
 
     .contacts__form-input {
         padding: 5px;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
     }
 
     .contacts__form-block {
