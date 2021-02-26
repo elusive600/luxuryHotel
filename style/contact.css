@@ -223,19 +223,18 @@
     }
 
     .contacts {
-        padding: 10px 15px;
+        padding: 20px 15px;
     }
 
     .contacts__title {
-        font-weight: 800;
-        font-size: 20px;
-        line-height: 24px;
-        margin-bottom: 9px;
+        font-size: 27px;
+        margin-bottom: 14px;
+
     }
 
     .contacts__text {
-        font-size: 11px;
-        line-height: 13px;
+        font-size: 14px;
+        line-height: 20px;
     }
 
     .contacts__describe {
@@ -246,6 +245,14 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts__direction {
+        width: 100%;
+        border: 2px solid #E0B973;
+        border-radius: 15px;
+        padding: 16px 15px 5px;
     }
 
     .contacts__direction-street,
@@ -253,6 +260,10 @@
     .contacts__direction-phone {
         font-size: 16px;
         line-height: 15px;
+        margin-bottom: 5px;
+    }
+
+    .contacts__direction-map {
         margin-bottom: 0px;
     }
 
@@ -266,28 +277,47 @@
         width: 35px;
         height: 35px;
     }
+
+    .contacts__form {
+        max-width: 570px;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .contacts__form-label {
+        font-size: 17px;
+        line-height: 15px;
+    }
+
+    .contacts__form-input {
+        padding: 5px;
+    }
+
+    .contacts__form-block {
+        margin-bottom: 12px;
+    }
+
+    .contacts__form-textarea {
+        padding: 5px;
+        height: 170px;
+    }
+
+    .contacts__form-button {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+        background-color: #E0B973;
+        padding: 9px 33px;
+        border-radius: 10px;
+    }
     
 
-    .rooms__item-prise {
-        padding: 8px 12px;
-        height: 60px;
+    .contacts__form-block:last-child {
+        display: flex;
+        justify-content: center;
     }
 
-    .rooms__item-details-text {
-        font-size: 11px;
-    }
-
-    .rooms__item-details-button svg {
-        width: 20px;
-    }
-
-    .rooms__item-details-button {
-        margin-right: 10px;
-    }
-
-    .rooms__button-prise {
-        font-size: 10px;
-        padding: 0 16px;
-    }
 
 }
