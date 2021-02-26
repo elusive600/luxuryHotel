@@ -187,9 +187,6 @@
 
 
 @media (max-width: 1336px) {
-    .rooms {
-        padding: 0 86px 0;
-    }
     
     .testimonials__title {
         font-size: 48px;
@@ -200,17 +197,57 @@
         font-size: 29px;
     }
 
-    .rooms__item-prise {
+}
+
+
+
+@media (max-width: 1230px) {
+    .contacts {
         padding: 30px 45px;
     }
 }
 
 
-@media (max-width: 1200px) {
 
+@media (max-width: 1140px) {
+
+    .contacts__title {
+        font-size: 57px;
+    }
+
+
+    .contacts__direction {
+        max-width: 653px;
+        width: 100%;
+        margin-bottom: 65px;
+    }
+
+    .contacts__describe {
+        margin-bottom: 65px;
+    }
+
+    .contacts__direction-street {
+        margin-bottom: 6px;
+    }
+
+    .contacts__direction-map {
+        margin-bottom: 3px;
+    }
+    
+    .contacts__information {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contacts__form-block:last-child {
+        display: flex;
+        justify-content: center;
+    }
 }
 
-@media (max-width: 957px) {
+@media (max-width: 757px) {
 
     .bottom-header__text {
         font-style: normal;
@@ -234,7 +271,10 @@
 
     .contacts__text {
         font-size: 14px;
-        line-height: 20px;
+        line-height: 20px;   
+        width: 100%;
+        max-width: 667px;
+        margin: 0 auto;
     }
 
     .contacts__describe {
@@ -253,6 +293,7 @@
         border: 2px solid #E0B973;
         border-radius: 15px;
         padding: 16px 15px 5px;
+        margin-bottom: 4px;
     }
 
     .contacts__direction-street,
