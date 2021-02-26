@@ -1,0 +1,293 @@
+.header {
+    background-color: #14274A;  
+}
+
+.top-header {   
+    margin-bottom: 0;
+}
+
+.bottom-header__text {
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 98px;
+    color: #FFFFFF;
+    padding: 46px 0 168px;
+}
+
+.contacts {
+    padding: 80px 0;
+    background-color: #FFFFFF;
+}
+
+.contacts__container {
+    max-width: 1509px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contacts__describe {
+    margin-bottom: 160px;
+}
+
+.contacts__title {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    /* line-height: 72px; */
+    color: #14274A;
+    text-align: center;    
+    margin-bottom: 28px;
+}
+
+.contacts__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;    
+    color: #14274A;
+}
+
+.contacts__information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__direction {
+    max-width: 653px;
+    width: 100%;
+}
+
+.contacts__direction-street {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    color: #14274A;
+    margin-bottom: 20px;
+}
+
+.contacts__direction-map {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #14274A;
+    text-decoration: none;
+    margin-bottom: 48px;
+}
+
+.contacts__direction-map-svg {
+    padding-left: 30px;
+}
+
+.contacts__direction-phone {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.contacts__direction-phone-link {
+    text-decoration: none;
+    color: black;
+}
+
+.contacts__form {
+    max-width: 570px;
+    width: 100%;
+}
+.contacts__form-block {
+    margin-bottom: 28px;
+}
+.contacts__form-block:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+.contacts__form-label {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    color: #14274A;
+    margin-bottom: 6px;
+}
+
+.contacts__form-input {
+    width: 100%;
+    border: 2px solid #8993A4;
+    max-height: 78px;
+    height: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    padding: 15px 26px;
+}
+
+.contacts__form-textarea {
+    width: 100%;
+    border:  2px solid #8993A4;
+    height: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    resize: none;
+    padding: 15px 26px;
+}
+
+.contacts__form-button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: #E0B973;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 1619px) {
+
+    .bottom-header__text {
+        font-style: normal;
+        text-align: center;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 98px;
+        color: #FFFFFF;
+        padding: 50px 0;
+    }
+
+    .contacts {
+        padding: 30px 110px ;
+    }
+
+    .contacts__describe {
+        margin-bottom: 115px;
+    }
+
+    .contacts__direction-street,
+    .contacts__direction-map,
+    .contacts__direction-phone {
+        font-size: 30px;
+    }
+    
+}
+
+
+@media (max-width: 1336px) {
+    .rooms {
+        padding: 0 86px 0;
+    }
+    
+    .testimonials__title {
+        font-size: 48px;
+        letter-spacing: -0.7px;
+    }
+
+    .testimonials__text {
+        font-size: 29px;
+    }
+
+    .rooms__item-prise {
+        padding: 30px 45px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 457px) {
+
+    .bottom-header__text {
+        font-style: normal;
+        text-align: center;
+        font-weight: bold;
+        font-size: 37px;
+        line-height: 44px;
+        color: #FFFFFF;
+        padding: 30px 0;
+    }
+
+    .contacts {
+        padding: 10px 15px;
+    }
+
+    .contacts__title {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 9px;
+    }
+
+    .contacts__text {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .contacts__describe {
+        margin-bottom: 27px;
+    }
+
+    .contacts__information {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contacts__direction-street,
+    .contacts__direction-map,
+    .contacts__direction-phone {
+        font-size: 16px;
+        line-height: 15px;
+        margin-bottom: 0px;
+    }
+
+    .contacts__direction-phone {
+        line-height: 26px;
+
+    }
+
+    .contacts__direction-map-svg {
+        padding-left: 10px;
+        width: 35px;
+        height: 35px;
+    }
+    
+
+    .rooms__item-prise {
+        padding: 8px 12px;
+        height: 60px;
+    }
+
+    .rooms__item-details-text {
+        font-size: 11px;
+    }
+
+    .rooms__item-details-button svg {
+        width: 20px;
+    }
+
+    .rooms__item-details-button {
+        margin-right: 10px;
+    }
+
+    .rooms__button-prise {
+        font-size: 10px;
+        padding: 0 16px;
+    }
+
+}
