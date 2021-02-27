@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header__container {
+    margin: 0 auto;
+    padding: 0 27px 1px;   
+    background-color: #14274A;
+}
+
+.top-header {
+    margin-bottom: 20px;
+}
+
+
+.error {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 40px 0 40px;
+}
+
+.error__title {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: -0.7px;
+    color: #14274A;
+}
+
+.error__item {
+    margin: 23px 0;
+}
+
+.error__text {
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+    line-height: 37px;
+    /* max-width: 850px; */
+    width: 100%;
+    color: #14274A;
+    margin-bottom: 26px;
+}
+
+.error__name {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    color: #14274A;
+}
+
+@media (max-width: 1336px) {
+    .rooms {
+        padding: 0 86px 0;
+    }
+    
+    .error__title {
+        font-size: 48px;
+        letter-spacing: -0.7px;
+    }
+
+    .error__text {
+        font-size: 29px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    .error__text {
+        font-size: 23px;
+        margin-bottom: 10px;
+        line-height: 21px;
+    }
+
+    .error__name {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .error__item {
+        margin: 13px 0;
+    }
+
+}
+
+
+@media (max-width: 1046px) {
+
+    .error__title {
+        font-size: 35px;
+        letter-spacing: -0.7px;
+    }
+
+    .error__text {
+        font-size: 19px;
+        margin-bottom: 4px;
+        line-height: 21px;
+    }
+
+    .error__name {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .error__item {
+        margin: 7px 0;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    .error {
+        margin-bottom: 70px;
+    }    
+
+    .error__title {
+        font-size: 30px;
+        letter-spacing: -0.7px;
+    }
+
+    .error__text {
+        font-size: 16px;
+        line-height: 15px;
+        margin-bottom: 4px;
+    }
+
+    .error__name {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .error__item {
+        margin: 7px 0;
+    }
+    
+}
+
+
+@media (max-width: 576px) {
+
+    .error__title {
+        font-size: 28px;
+    }
+
+    .error__text {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+
+    .error__name {
+        font-size: 11px;
+        line-height: 23px;
+    }
+
+}
+
+
+

@@ -186,21 +186,6 @@
 }
 
 
-@media (max-width: 1336px) {
-    
-    .testimonials__title {
-        font-size: 48px;
-        letter-spacing: -0.7px;
-    }
-
-    .testimonials__text {
-        font-size: 29px;
-    }
-
-}
-
-
-
 @media (max-width: 1230px) {
     .contacts {
         padding: 30px 45px;
