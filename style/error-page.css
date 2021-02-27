@@ -33,7 +33,7 @@
     color: #14274A;
 }
 
-.error__item {
+.error__contact {
     margin: 23px 0;
 }
 
@@ -49,14 +49,24 @@
     margin-bottom: 26px;
 }
 
-.error__name {
-    display: block;
+.error__links {
+    display:flex;
+    justify-content: center;
     font-style: normal;
     font-weight: normal;
     text-align: center;
     font-size: 25px;
     line-height: 30px;
     color: #14274A;
+}
+
+.error__links .error__link+.error__link {
+    margin-left: 20px;
+}
+
+.error__link svg{
+    width: 60px;
+    height: 60px;
 }
 
 @media (max-width: 1336px) {
@@ -79,16 +89,16 @@
 
     .error__text {
         font-size: 23px;
-        margin-bottom: 10px;
+        margin-bottom: 24px;
         line-height: 21px;
     }
 
-    .error__name {
+    .error__links {
         font-size: 18px;
         line-height: 26px;
     }
 
-    .error__item {
+    .error__contact {
         margin: 13px 0;
     }
 
@@ -104,16 +114,16 @@
 
     .error__text {
         font-size: 19px;
-        margin-bottom: 4px;
         line-height: 21px;
+        margin-bottom: 15px;
     }
 
-    .error__name {
+    .error__links {
         font-size: 16px;
         line-height: 26px;
     }
 
-    .error__item {
+    .error__contact {
         margin: 7px 0;
     }
 
@@ -134,15 +144,15 @@
     .error__text {
         font-size: 16px;
         line-height: 15px;
-        margin-bottom: 4px;
+        margin-bottom: 12px;
     }
 
-    .error__name {
+    .error__links {
         font-size: 13px;
         line-height: 23px;
     }
 
-    .error__item {
+    .error__contact {
         margin: 7px 0;
     }
     
@@ -157,10 +167,10 @@
 
     .error__text {
         font-size: 13px;
-        margin-bottom: 4px;
+        margin-bottom: 20px 0;
     }
 
-    .error__name {
+    .error__links {
         font-size: 11px;
         line-height: 23px;
     }
